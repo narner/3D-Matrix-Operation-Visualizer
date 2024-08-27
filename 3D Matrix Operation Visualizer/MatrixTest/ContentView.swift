@@ -150,18 +150,19 @@ struct CompactRotationView: View {
             Text("Euler Angles (degrees):")
                 .font(.subheadline)
             HStack(spacing: 15) {
-                Text("X: \(rotation.x, specifier: "%.2f")°")
-                Text("Y: \(rotation.y, specifier: "%.2f")°")
-                Text("Z: \(rotation.z, specifier: "%.2f")°")
+                ForEach(["X", "Y", "Z"], id: \.self) { axis in
+                    Text("\(axis): \(rotationValue(for: axis))")
+                        .frame(width: 80, alignment: .leading)
+                        .font(.system(.body, design: .monospaced))
+                }
             }
-            .font(.system(.body, design: .monospaced))
             Text("Rotation Matrix:")
                 .font(.subheadline)
                 .padding(.top, 5)
             ForEach(0..<3) { row in
                 HStack(spacing: 8) {
                     ForEach(0..<3) { col in
-                        Text(String(format: "%.2f", matrix.rotationMatrix[row][col]))
+                        Text(matrixValue(row: row, col: col))
                             .frame(width: 60, alignment: .trailing)
                             .font(.system(.body, design: .monospaced))
                     }
@@ -172,8 +173,22 @@ struct CompactRotationView: View {
         .background(Color.gray.opacity(0.1))
         .cornerRadius(10)
     }
+    
+    private func rotationValue(for axis: String) -> String {
+        let value: Float
+        switch axis {
+        case "X": value = rotation.x
+        case "Y": value = rotation.y
+        case "Z": value = rotation.z
+        default: value = 0
+        }
+        return String(format: "%+07.2f°", value)
+    }
+    
+    private func matrixValue(row: Int, col: Int) -> String {
+        String(format: "%+.2f", matrix.rotationMatrix[row][col])
+    }
 }
-
 
 struct RotationDisplayView: View {
     let matrix: simd_float4x4
