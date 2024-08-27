@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E439B57C2C640F5900A4509B /* MatrixTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439B57B2C640F5900A4509B /* MatrixTestApp.swift */; };
+		E439B57E2C640F5900A4509B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439B57D2C640F5900A4509B /* ContentView.swift */; };
+		E439B5802C640F5B00A4509B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E439B57F2C640F5B00A4509B /* Assets.xcassets */; };
+		E439B5832C640F5B00A4509B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E439B5822C640F5B00A4509B /* Preview Assets.xcassets */; };
+		E439B58E2C640F5B00A4509B /* MatrixTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439B58D2C640F5B00A4509B /* MatrixTestTests.swift */; };
+		E439B5982C640F5B00A4509B /* MatrixTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439B5972C640F5B00A4509B /* MatrixTestUITests.swift */; };
+		E439B59A2C640F5B00A4509B /* MatrixTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439B5992C640F5B00A4509B /* MatrixTestUITestsLaunchTests.swift */; };
+		E439B5B52C6429AA00A4509B /* simd_float4x4+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439B5B42C6429AA00A4509B /* simd_float4x4+Extension.swift */; };
+		E439B5B72C6429EA00A4509B /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439B5B62C6429EA00A4509B /* SceneKitView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E439B58A2C640F5B00A4509B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E439B5702C640F5900A4509B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E439B5772C640F5900A4509B;
+			remoteInfo = MatrixTest;
+		};
+		E439B5942C640F5B00A4509B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E439B5702C640F5900A4509B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E439B5772C640F5900A4509B;
+			remoteInfo = MatrixTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E439B5782C640F5900A4509B /* 3D Matrix Operation Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Matrix Operation Visualizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E439B57B2C640F5900A4509B /* MatrixTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTestApp.swift; sourceTree = "<group>"; };
+		E439B57D2C640F5900A4509B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E439B57F2C640F5B00A4509B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E439B5822C640F5B00A4509B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E439B5842C640F5B00A4509B /* MatrixTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MatrixTest.entitlements; sourceTree = "<group>"; };
+		E439B5892C640F5B00A4509B /* 3D Matrix Operation VisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D Matrix Operation VisualizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E439B58D2C640F5B00A4509B /* MatrixTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTestTests.swift; sourceTree = "<group>"; };
+		E439B5932C640F5B00A4509B /* 3D Matrix Operation VisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D Matrix Operation VisualizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E439B5972C640F5B00A4509B /* MatrixTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTestUITests.swift; sourceTree = "<group>"; };
+		E439B5992C640F5B00A4509B /* MatrixTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E439B5B42C6429AA00A4509B /* simd_float4x4+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "simd_float4x4+Extension.swift"; sourceTree = "<group>"; };
+		E439B5B62C6429EA00A4509B /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E439B5752C640F5900A4509B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E439B5862C640F5B00A4509B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E439B5902C640F5B00A4509B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E439B56F2C640F5900A4509B = {
+			isa = PBXGroup;
+			children = (
+				E439B57A2C640F5900A4509B /* MatrixTest */,
+				E439B58C2C640F5B00A4509B /* MatrixTestTests */,
+				E439B5962C640F5B00A4509B /* MatrixTestUITests */,
+				E439B5792C640F5900A4509B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E439B5792C640F5900A4509B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E439B5782C640F5900A4509B /* 3D Matrix Operation Visualizer.app */,
+				E439B5892C640F5B00A4509B /* 3D Matrix Operation VisualizerTests.xctest */,
+				E439B5932C640F5B00A4509B /* 3D Matrix Operation VisualizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E439B57A2C640F5900A4509B /* MatrixTest */ = {
+			isa = PBXGroup;
+			children = (
+				E439B57B2C640F5900A4509B /* MatrixTestApp.swift */,
+				E439B57D2C640F5900A4509B /* ContentView.swift */,
+				E439B5B62C6429EA00A4509B /* SceneKitView.swift */,
+				E439B5B42C6429AA00A4509B /* simd_float4x4+Extension.swift */,
+				E439B57F2C640F5B00A4509B /* Assets.xcassets */,
+				E439B5842C640F5B00A4509B /* MatrixTest.entitlements */,
+				E439B5812C640F5B00A4509B /* Preview Content */,
+			);
+			path = MatrixTest;
+			sourceTree = "<group>";
+		};
+		E439B5812C640F5B00A4509B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E439B5822C640F5B00A4509B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E439B58C2C640F5B00A4509B /* MatrixTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E439B58D2C640F5B00A4509B /* MatrixTestTests.swift */,
+			);
+			path = MatrixTestTests;
+			sourceTree = "<group>";
+		};
+		E439B5962C640F5B00A4509B /* MatrixTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E439B5972C640F5B00A4509B /* MatrixTestUITests.swift */,
+				E439B5992C640F5B00A4509B /* MatrixTestUITestsLaunchTests.swift */,
+			);
+			path = MatrixTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E439B5772C640F5900A4509B /* 3D Matrix Operation Visualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E439B59D2C640F5B00A4509B /* Build configuration list for PBXNativeTarget "3D Matrix Operation Visualizer" */;
+			buildPhases = (
+				E439B5742C640F5900A4509B /* Sources */,
+				E439B5752C640F5900A4509B /* Frameworks */,
+				E439B5762C640F5900A4509B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Matrix Operation Visualizer";
+			productName = MatrixTest;
+			productReference = E439B5782C640F5900A4509B /* 3D Matrix Operation Visualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E439B5882C640F5B00A4509B /* 3D Matrix Operation VisualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E439B5A02C640F5B00A4509B /* Build configuration list for PBXNativeTarget "3D Matrix Operation VisualizerTests" */;
+			buildPhases = (
+				E439B5852C640F5B00A4509B /* Sources */,
+				E439B5862C640F5B00A4509B /* Frameworks */,
+				E439B5872C640F5B00A4509B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E439B58B2C640F5B00A4509B /* PBXTargetDependency */,
+			);
+			name = "3D Matrix Operation VisualizerTests";
+			productName = MatrixTestTests;
+			productReference = E439B5892C640F5B00A4509B /* 3D Matrix Operation VisualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E439B5922C640F5B00A4509B /* 3D Matrix Operation VisualizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E439B5A32C640F5B00A4509B /* Build configuration list for PBXNativeTarget "3D Matrix Operation VisualizerUITests" */;
+			buildPhases = (
+				E439B58F2C640F5B00A4509B /* Sources */,
+				E439B5902C640F5B00A4509B /* Frameworks */,
+				E439B5912C640F5B00A4509B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E439B5952C640F5B00A4509B /* PBXTargetDependency */,
+			);
+			name = "3D Matrix Operation VisualizerUITests";
+			productName = MatrixTestUITests;
+			productReference = E439B5932C640F5B00A4509B /* 3D Matrix Operation VisualizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E439B5702C640F5900A4509B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E439B5772C640F5900A4509B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E439B5882C640F5B00A4509B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E439B5772C640F5900A4509B;
+					};
+					E439B5922C640F5B00A4509B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E439B5772C640F5900A4509B;
+					};
+				};
+			};
+			buildConfigurationList = E439B5732C640F5900A4509B /* Build configuration list for PBXProject "3D Matrix Operation Visualizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E439B56F2C640F5900A4509B;
+			productRefGroup = E439B5792C640F5900A4509B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E439B5772C640F5900A4509B /* 3D Matrix Operation Visualizer */,
+				E439B5882C640F5B00A4509B /* 3D Matrix Operation VisualizerTests */,
+				E439B5922C640F5B00A4509B /* 3D Matrix Operation VisualizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E439B5762C640F5900A4509B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E439B5832C640F5B00A4509B /* Preview Assets.xcassets in Resources */,
+				E439B5802C640F5B00A4509B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E439B5872C640F5B00A4509B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E439B5912C640F5B00A4509B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E439B5742C640F5900A4509B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E439B57E2C640F5900A4509B /* ContentView.swift in Sources */,
+				E439B57C2C640F5900A4509B /* MatrixTestApp.swift in Sources */,
+				E439B5B52C6429AA00A4509B /* simd_float4x4+Extension.swift in Sources */,
+				E439B5B72C6429EA00A4509B /* SceneKitView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E439B5852C640F5B00A4509B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E439B58E2C640F5B00A4509B /* MatrixTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E439B58F2C640F5B00A4509B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E439B5982C640F5B00A4509B /* MatrixTestUITests.swift in Sources */,
+				E439B59A2C640F5B00A4509B /* MatrixTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E439B58B2C640F5B00A4509B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E439B5772C640F5900A4509B /* 3D Matrix Operation Visualizer */;
+			targetProxy = E439B58A2C640F5B00A4509B /* PBXContainerItemProxy */;
+		};
+		E439B5952C640F5B00A4509B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E439B5772C640F5900A4509B /* 3D Matrix Operation Visualizer */;
+			targetProxy = E439B5942C640F5B00A4509B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E439B59B2C640F5B00A4509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E439B59C2C640F5B00A4509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E439B59E2C640F5B00A4509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MatrixTest/MatrixTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatrixTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfa.MatrixTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E439B59F2C640F5B00A4509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MatrixTest/MatrixTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatrixTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QDK6789A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfa.MatrixTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E439B5A12C640F5B00A4509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stitch.MatrixTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Matrix Operation Visualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3D Matrix Operation Visualizer";
+			};
+			name = Debug;
+		};
+		E439B5A22C640F5B00A4509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stitch.MatrixTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Matrix Operation Visualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3D Matrix Operation Visualizer";
+			};
+			name = Release;
+		};
+		E439B5A42C640F5B00A4509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stitch.MatrixTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MatrixTest;
+			};
+			name = Debug;
+		};
+		E439B5A52C640F5B00A4509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stitch.MatrixTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MatrixTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E439B5732C640F5900A4509B /* Build configuration list for PBXProject "3D Matrix Operation Visualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E439B59B2C640F5B00A4509B /* Debug */,
+				E439B59C2C640F5B00A4509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E439B59D2C640F5B00A4509B /* Build configuration list for PBXNativeTarget "3D Matrix Operation Visualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E439B59E2C640F5B00A4509B /* Debug */,
+				E439B59F2C640F5B00A4509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E439B5A02C640F5B00A4509B /* Build configuration list for PBXNativeTarget "3D Matrix Operation VisualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E439B5A12C640F5B00A4509B /* Debug */,
+				E439B5A22C640F5B00A4509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E439B5A32C640F5B00A4509B /* Build configuration list for PBXNativeTarget "3D Matrix Operation VisualizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E439B5A42C640F5B00A4509B /* Debug */,
+				E439B5A52C640F5B00A4509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E439B5702C640F5900A4509B /* Project object */;
+}
